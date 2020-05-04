@@ -1,13 +1,5 @@
 <Type Name="EventType" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fc7eaf55036abf661f725a4ef79b153a70ae903d" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621541" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum EventType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fc7eaf55036abf661f725a4ef79b153a70ae903d" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621541" /></Metadata><TypeSignature Language="C#" Value="public enum EventType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EventType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType" />
   <TypeSignature Language="VB.NET" Value="Public Enum EventType" />
@@ -28,12 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7c262-101">Указывает тип события.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7c262-101">Specifies the event type.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="c7ef9-101">Указывает тип события.</span><span class="sxs-lookup"><span data-stu-id="c7ef9-101">Specifies the event type.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -58,12 +45,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c262-102">Происшествия (0)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c262-102">Incident (0)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c7ef9-102">Инцидент (0)</span><span class="sxs-lookup"><span data-stu-id="c7ef9-102">Incident (0)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="MessageCenterMessage">
@@ -111,12 +93,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c262-103">Плановое обслуживание (1)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c262-103">Planned maintenance (1)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="c7ef9-103">Плановое обслуживание (1)</span><span class="sxs-lookup"><span data-stu-id="c7ef9-103">Planned maintenance (1)</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="MessageCenterMessage" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e872d75f5d4eded646cfb0acebeded607937c51" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621566" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MessageCenterMessage : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e872d75f5d4eded646cfb0acebeded607937c51" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621566" /></Metadata><TypeSignature Language="C#" Value="public class MessageCenterMessage : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MessageCenterMessage extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage" />
   <TypeSignature Language="VB.NET" Value="Public Class MessageCenterMessage&#xA;Inherits Event" />
@@ -26,12 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="9d3f9-101">Представляет сообщение центр сообщений.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="9d3f9-101">Represents a message center message.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a5f17-101">Представляет сообщение центра сообщений.</span><span class="sxs-lookup"><span data-stu-id="a5f17-101">Represents a message center message.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -72,24 +59,10 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9d3f9-102">Поле даты, с какого клиента необходимо выполнить действия.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-102">Provides the date by which customer actions should be completed.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9d3f9-103">
-            <a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Допускает значение NULL</a>
-            <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">Даты и времени</a>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-103">
-              <a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Nullable</a>
-              <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a5f17-102">Предоставляет дату выполнения действий клиента.</span><span class="sxs-lookup"><span data-stu-id="a5f17-102">Provides the date by which customer actions should be completed.</span></span></summary>
+        <value><span data-ttu-id="a5f17-103"><a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Значение</a>
+          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">даты и времени (DateTime</a> )</span><span class="sxs-lookup"><span data-stu-id="a5f17-103"><a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Nullable</a>
+          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,34 +86,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9d3f9-104">Предоставляет тип сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-104">Provides the message type.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9d3f9-105">
-            <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-105">
-              <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="9d3f9-106">
-            <para>Возможные значения: «1» для «Действия», «2» для «Opportunity» и «3» для «Сведения о».</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-106">
-              <para>Possible values are “1” for “Action”, “2” for “Opportunity”, and “3” for “Awareness”.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a5f17-104">Предоставляет тип сообщения.</span><span class="sxs-lookup"><span data-stu-id="a5f17-104">Provides the message type.</span></span></summary>
+        <value><span data-ttu-id="a5f17-105"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></span><span class="sxs-lookup"><span data-stu-id="a5f17-105"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a></span></span></value>
+        <remarks><span data-ttu-id="a5f17-106"><para>Возможные значения: "1" для "Action", "2" для "Возможная" и "3" для "сведения о состоянии".</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a5f17-106"><para>Possible values are “1” for “Action”, “2” for “Opportunity”, and “3” for “Awareness”.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -163,34 +113,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9d3f9-107">Предоставляет категории сообщения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-107">Provides the message category.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9d3f9-108">
-            <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-108">
-              <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="9d3f9-109">
-            <para>Возможные значения: «1», «Запретить или устранения проблем», «2», «Планирование для изменения» и «3» для «Оставайтесь в курсе».</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-109">
-              <para>Possible values are “1” for “Prevent or Fix Issues”, “2” for “Plan for Change”, and “3” for “Stay Informed”.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a5f17-107">Предоставляет категорию сообщений.</span><span class="sxs-lookup"><span data-stu-id="a5f17-107">Provides the message category.</span></span></summary>
+        <value><span data-ttu-id="a5f17-108"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></span><span class="sxs-lookup"><span data-stu-id="a5f17-108"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a></span></span></value>
+        <remarks><span data-ttu-id="a5f17-109"><para>Возможные значения: "1" для "предотвращение или устранение проблем", "2" для "Планирование изменений" и "3" для "сведения о".</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a5f17-109"><para>Possible values are “1” for “Prevent or Fix Issues”, “2” for “Plan for Change”, and “3” for “Stay Informed”.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExternalLink">
@@ -213,22 +140,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9d3f9-110">Содержит ссылки на дополнительные сведения о сообщении.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-110">Provides a link to additional information about the message.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9d3f9-111">
-            <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-111">
-              <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
-            </span>
-          </span>
-        </value>
+        <summary><span data-ttu-id="a5f17-110">Содержит ссылку на дополнительные сведения о сообщении.</span><span class="sxs-lookup"><span data-stu-id="a5f17-110">Provides a link to additional information about the message.</span></span></summary>
+        <value><span data-ttu-id="a5f17-111"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></span><span class="sxs-lookup"><span data-stu-id="a5f17-111"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a></span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -252,34 +165,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="9d3f9-112">Обеспечивает уровень срочным обмен сообщениями.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-112">Provides the urgency level of the message communication.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="9d3f9-113">
-            <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-113">
-              <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
-            </span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="9d3f9-114">
-            <para>Возможные значения: «21» для «Критический», «22» для «Высокий» и «23» для «Обычный».</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="9d3f9-114">
-              <para>Possible values are “21” for “Critical”, “22” for “High”, and “23” for “Normal”.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a5f17-112">Обеспечивает уровень срочности обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="a5f17-112">Provides the urgency level of the message communication.</span></span></summary>
+        <value><span data-ttu-id="a5f17-113"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></span><span class="sxs-lookup"><span data-stu-id="a5f17-113"><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a></span></span></value>
+        <remarks><span data-ttu-id="a5f17-114"><para>Возможные значения: "21" для "критическое", "22" для "High", "23" для "нормального".</para>
+          <para /></span><span class="sxs-lookup"><span data-stu-id="a5f17-114"><para>Possible values are “21” for “Critical”, “22” for “High”, and “23” for “Normal”.</para>
+          <para /></span></span></remarks>
       </Docs>
     </Member>
   </Members>

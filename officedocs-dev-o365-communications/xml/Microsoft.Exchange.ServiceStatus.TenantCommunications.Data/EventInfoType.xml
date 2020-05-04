@@ -1,13 +1,5 @@
 <Type Name="EventInfoType" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aff05aeee518358726c79cdd84d52847ba0daad1" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621551" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum EventInfoType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="aff05aeee518358726c79cdd84d52847ba0daad1" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621551" /></Metadata><TypeSignature Language="C#" Value="public enum EventInfoType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EventInfoType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoType" />
   <TypeSignature Language="VB.NET" Value="Public Enum EventInfoType" />
@@ -25,12 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="b535c-101">Указывает тип события информации.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b535c-101">Specifies the event info type.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="95808-101">Указывает тип сведений о событии.</span><span class="sxs-lookup"><span data-stu-id="95808-101">Specifies the event info type.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -55,12 +42,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b535c-102">1</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b535c-102">1</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="95808-102">1,1</span><span class="sxs-lookup"><span data-stu-id="95808-102">1</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Incremental">
@@ -84,12 +66,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b535c-103">0</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b535c-103">0</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="95808-103">нуль</span><span class="sxs-lookup"><span data-stu-id="95808-103">0</span></span></summary>
       </Docs>
     </Member>
   </Members>

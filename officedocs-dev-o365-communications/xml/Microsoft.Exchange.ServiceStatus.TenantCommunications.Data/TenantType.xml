@@ -1,13 +1,5 @@
 <Type Name="TenantType" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="08fa393be3e3febdfa01b26933cadebeb77bed3d" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621564" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum TenantType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="08fa393be3e3febdfa01b26933cadebeb77bed3d" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621564" /></Metadata><TypeSignature Language="C#" Value="public enum TenantType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TenantType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantType" />
   <TypeSignature Language="VB.NET" Value="Public Enum TenantType" />

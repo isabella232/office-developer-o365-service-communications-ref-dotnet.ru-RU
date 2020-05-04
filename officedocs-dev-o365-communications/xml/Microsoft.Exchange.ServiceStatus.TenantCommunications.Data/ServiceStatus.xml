@@ -1,13 +1,5 @@
 <Type Name="ServiceStatus" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3958d22b84bdff307c2f80887f3e397bb2974cde" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621554" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ServiceStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3958d22b84bdff307c2f80887f3e397bb2974cde" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621554" /></Metadata><TypeSignature Language="C#" Value="public enum ServiceStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum ServiceStatus" />
@@ -25,12 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2766d-101">Указывает состояние службы.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2766d-101">Specifies the status of the service.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="bab93-101">Указывает состояние службы.</span><span class="sxs-lookup"><span data-stu-id="bab93-101">Specifies the status of the service.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -55,16 +42,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-102">Решение об инциденте находится в стадии разработки и займет время для завершения.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-102">Incident resolution is in progress and will take a while to be completed.</span>
-          </span>
-          <span data-ttu-id="2766d-103">(3)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-103">(3)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-102">Разрешение инцидентов выполняется и займет некоторое время.</span><span class="sxs-lookup"><span data-stu-id="bab93-102">Incident resolution is in progress and will take a while to be completed.</span></span> <span data-ttu-id="bab93-103">4</span><span class="sxs-lookup"><span data-stu-id="bab93-103">(3)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="FalsePositive">
@@ -88,16 +66,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-104">Службы расследования определить, что служба происшествия не было.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-104">Service investigation determined that a service incident did not occur.</span>
-          </span>
-          <span data-ttu-id="2766d-105">(6)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-105">(6)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-104">При расследовании обслуживания обнаружено, что инцидент службы не выполнялся.</span><span class="sxs-lookup"><span data-stu-id="bab93-104">Service investigation determined that a service incident did not occur.</span></span> <span data-ttu-id="bab93-105">ICMPv6</span><span class="sxs-lookup"><span data-stu-id="bab93-105">(6)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="InformationUnavailable">
@@ -121,16 +90,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-106">API-Интерфейс не удалось обработать запрос для получения сведений.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-106">The API could not process the request for information.</span>
-          </span>
-          <span data-ttu-id="2766d-107">(8)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-107">(8)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-106">API не может обработать запрос для получения сведений.</span><span class="sxs-lookup"><span data-stu-id="bab93-106">The API could not process the request for information.</span></span> <span data-ttu-id="bab93-107">8,5</span><span class="sxs-lookup"><span data-stu-id="bab93-107">(8)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="Investigating">
@@ -154,16 +114,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-108">Об инциденте расследования служба находится в стадии разработки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-108">Service incident investigation is in progress.</span>
-          </span>
-          <span data-ttu-id="2766d-109">(4)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-109">(4)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-108">Выполняется исследование инцидентов службы.</span><span class="sxs-lookup"><span data-stu-id="bab93-108">Service incident investigation is in progress.</span></span> <span data-ttu-id="bab93-109">SP4</span><span class="sxs-lookup"><span data-stu-id="bab93-109">(4)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="PIRPublished">
@@ -187,16 +138,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-110">Разбор отчет был опубликован.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-110">The post-incident report has been published.</span>
-          </span>
-          <span data-ttu-id="2766d-111">(7)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-111">(7)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-110">Отчет после инцидента опубликован.</span><span class="sxs-lookup"><span data-stu-id="bab93-110">The post-incident report has been published.</span></span> <span data-ttu-id="bab93-111">см</span><span class="sxs-lookup"><span data-stu-id="bab93-111">(7)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="RestoringService">
@@ -220,16 +162,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-112">Решение об инциденте находится в стадии разработки.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-112">Incident resolution is in progress.</span>
-          </span>
-          <span data-ttu-id="2766d-113">(2)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-113">(2)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-112">Выполняется разрешение инцидентов.</span><span class="sxs-lookup"><span data-stu-id="bab93-112">Incident resolution is in progress.</span></span> <span data-ttu-id="bab93-113">2</span><span class="sxs-lookup"><span data-stu-id="bab93-113">(2)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceDegradation">
@@ -253,16 +186,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-114">Операции службы временно снижается для некоторых клиентов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-114">Service operation is temporarily degraded for some customers.</span>
-          </span>
-          <span data-ttu-id="2766d-115">(1)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-115">(1)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-114">Операция службы временно снижена для некоторых пользователей.</span><span class="sxs-lookup"><span data-stu-id="bab93-114">Service operation is temporarily degraded for some customers.</span></span> <span data-ttu-id="bab93-115">1,1</span><span class="sxs-lookup"><span data-stu-id="bab93-115">(1)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceInterruption">
@@ -286,16 +210,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-116">Служба временно недоступна для некоторых клиентов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-116">Service is temporarily not available for some customers.</span>
-          </span>
-          <span data-ttu-id="2766d-117">(0)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-117">(0)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-116">Служба временно недоступна для некоторых клиентов.</span><span class="sxs-lookup"><span data-stu-id="bab93-116">Service is temporarily not available for some customers.</span></span> <span data-ttu-id="bab93-117">нуль</span><span class="sxs-lookup"><span data-stu-id="bab93-117">(0)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceOperational">
@@ -319,16 +234,7 @@
       </ReturnValue>
       <MemberValue>99</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-118">Служба работает нормально.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-118">Service is healthy.</span>
-          </span>
-          <span data-ttu-id="2766d-119">(99)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-119">(99)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-118">Служба работоспособна.</span><span class="sxs-lookup"><span data-stu-id="bab93-118">Service is healthy.</span></span> <span data-ttu-id="bab93-119">(99)</span><span class="sxs-lookup"><span data-stu-id="bab93-119">(99)</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceRestored">
@@ -352,16 +258,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2766d-120">Разрешается происшествия служба и служба работает для всех клиентов.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-120">The service incident is resolved and service is operational for all customers.</span>
-          </span>
-          <span data-ttu-id="2766d-121">(5)</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2766d-121">(5)</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bab93-120">Инцидент службы разрешается, и служба работает для всех клиентов.</span><span class="sxs-lookup"><span data-stu-id="bab93-120">The service incident is resolved and service is operational for all customers.</span></span> <span data-ttu-id="bab93-121">17:00</span><span class="sxs-lookup"><span data-stu-id="bab93-121">(5)</span></span></summary>
       </Docs>
     </Member>
   </Members>

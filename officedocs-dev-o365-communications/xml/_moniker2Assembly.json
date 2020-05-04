@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "System",
+    "Системные",
     "system.runtime.serialization"
   ],
   "o365-service-communications": [
