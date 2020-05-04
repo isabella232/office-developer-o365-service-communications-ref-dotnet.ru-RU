@@ -1,13 +1,5 @@
 <Type Name="PlannedMaintenance" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="803699ae4321e1d77a4802bc1a0a9aa0fe0c1384" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621559" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class PlannedMaintenance : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="803699ae4321e1d77a4802bc1a0a9aa0fe0c1384" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621559" /></Metadata><TypeSignature Language="C#" Value="public class PlannedMaintenance : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PlannedMaintenance extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenance" />
   <TypeSignature Language="VB.NET" Value="Public Class PlannedMaintenance&#xA;Inherits Event" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет события запланированного технического обслуживания.</summary>
+    <summary>Представляет запланированное событие обслуживания.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -67,10 +59,8 @@
         <ReturnType>System.String[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет список служб, связанных с событиями планового обслуживания.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
+        <summary>Предоставляет список служб, связанных с запланированными событиями обслуживания.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,10 +84,8 @@
         <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет текущее состояние планового обслуживания.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus" />
-        </value>
+        <summary>Предоставляет текущее состояние запланированного обслуживания.</summary>
+        <value><see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,10 +109,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет Дата и время окончания для событий обслуживания.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
-        </value>
+        <summary>Содержит дату и время окончания события обслуживания.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

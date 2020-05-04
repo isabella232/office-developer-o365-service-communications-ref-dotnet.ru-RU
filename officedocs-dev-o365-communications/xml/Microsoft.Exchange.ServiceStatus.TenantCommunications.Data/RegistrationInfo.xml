@@ -1,13 +1,5 @@
 <Type Name="RegistrationInfo" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="abef6aa7b2095fd2a68ca4bb6dc775c3060934a5" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621567" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class RegistrationInfo" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="abef6aa7b2095fd2a68ca4bb6dc775c3060934a5" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621567" /></Metadata><TypeSignature Language="C#" Value="public class RegistrationInfo" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RegistrationInfo extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.RegistrationInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class RegistrationInfo" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет владельца сведения о регистрации.</summary>
+    <summary>Представляет сведения о регистрации клиента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -67,12 +59,10 @@
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит сопоставления между компании и домена.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/xfhwa508">Словарь</a>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-          <a href="http://msdn.microsoft.com/en-us/library/cey1zx63">Идентификатор GUID</a>
-        </value>
+        <summary>Обеспечивает сопоставление между компанией и доменом.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/xfhwa508">Dictionary</a>
+          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">String</a>
+          <a href="http://msdn.microsoft.com/en-us/library/cey1zx63">GUID</a> строки словаря</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -121,10 +111,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит файл cookie для последнего вызова.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
+        <summary>Предоставляет файл cookie последнего вызова.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,13 +136,11 @@
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.Uri,System.Collections.Generic.IEnumerable&lt;System.Guid&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет сопоставление конечной точки службы.</summary>
+        <summary>Предоставляет сопоставление конечных точек службы.</summary>
         <value>
-          <a href="http://msdn.microsoft.com/en-us/library/xfhwa508">Словарь</a>
+          <a href="http://msdn.microsoft.com/en-us/library/cey1zx63">GUID</a> 
           <a href="http://msdn.microsoft.com/en-us/library/txt7706a">URI</a>
-          <a href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>
-          <a href="http://msdn.microsoft.com/en-us/library/cey1zx63">Идентификатор GUID</a>
-        </value>
+          <a href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>для <a href="http://msdn.microsoft.com/en-us/library/xfhwa508">словаря</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -178,9 +164,8 @@
         <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Представлены поддерживаемые типы событий.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType" />[]</value>
+        <summary>Предоставляет Поддерживаемые типы событий.</summary>
+        <value><see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventType" />[]</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

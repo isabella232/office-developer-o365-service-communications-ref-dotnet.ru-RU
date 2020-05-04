@@ -1,13 +1,5 @@
 <Type Name="TenantEventInfo" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4d24b1e98b4bba295d7f0741e73f21290a86780b" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621547" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class TenantEventInfo : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4d24b1e98b4bba295d7f0741e73f21290a86780b" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621547" /></Metadata><TypeSignature Language="C#" Value="public class TenantEventInfo : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TenantEventInfo extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.EventInfoBase" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.TenantEventInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class TenantEventInfo&#xA;Inherits EventInfoBase" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет данные для события клиента.</summary>
+    <summary>Представляет сведения о событии клиента.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -67,10 +59,9 @@
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.Guid,Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event[]&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет список событий, связанных со запрашиваемого клиента.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/xfhwa508">Словарь</a>
-          <a href="http://msdn.microsoft.com/en-us/library/cey1zx63">Идентификатор GUID</a>
+        <summary>Предоставляет список событий, связанных с запрашиваемым клиентом.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/xfhwa508">Словарь</a>
+          <a href="http://msdn.microsoft.com/en-us/library/cey1zx63">GUID</a>
           <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />[]&gt;</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,6 @@
+
 <Framework Name="o365-service-communications">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a485f21e55651a85dfe9eb3de8dd46240e116d27" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621562" />
-  </Metadata>
-  <Namespace Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data">
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a485f21e55651a85dfe9eb3de8dd46240e116d27" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621562" /></Metadata><Namespace Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data">
     <Type Name="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" Id="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event">
       <Member Id="M:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.#ctor" />
       <Member Id="P:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event.EndTime" />

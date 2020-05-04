@@ -1,13 +1,5 @@
 <Type Name="ServiceFeatureHealthStatus" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="98c06436fc61a5215e812dd3512f46fc7b3ee4f6" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621549" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class ServiceFeatureHealthStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="98c06436fc61a5215e812dd3512f46fc7b3ee4f6" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621549" /></Metadata><TypeSignature Language="C#" Value="public class ServiceFeatureHealthStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceFeatureHealthStatus extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceFeatureHealthStatus" />
   <TypeSignature Language="VB.NET" Value="Public Class ServiceFeatureHealthStatus" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет состояние работоспособности для компонента службы Office 365.</summary>
+    <summary>Представляет состояние работоспособности для функции службы Office 365.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -67,8 +59,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит имя компонента.</summary>
-        <value>&lt;<a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
+        <summary>Предоставляет имя компонента.</summary>
+        <value>&lt;<a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Substring</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,10 +109,8 @@
         <ReturnType>Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит текущее состояние работоспособности для запрошенного компоненты.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus" />
-        </value>
+        <summary>Предоставляет текущие сведения о работоспособности для запрашиваемых функций.</summary>
+        <value><see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus" /></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

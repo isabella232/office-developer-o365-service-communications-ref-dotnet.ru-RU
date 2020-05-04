@@ -1,13 +1,5 @@
 <Type Name="PlannedMaintenanceStatus" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="015c9512c7a184a1df8383a28b40b8a760d08468" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621556" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum PlannedMaintenanceStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="015c9512c7a184a1df8383a28b40b8a760d08468" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621556" /></Metadata><TypeSignature Language="C#" Value="public enum PlannedMaintenanceStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PlannedMaintenanceStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.PlannedMaintenanceStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum PlannedMaintenanceStatus" />
@@ -50,7 +42,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Событие обслуживания, которая была отменена. (3)</summary>
+        <summary>Событие обслуживания, которое было отменено. 4</summary>
       </Docs>
     </Member>
     <Member MemberName="Complete">
@@ -74,7 +66,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Событие завершения обслуживания. (2)</summary>
+        <summary>Выполнение события обслуживания. 2</summary>
       </Docs>
     </Member>
     <Member MemberName="InProgress">
@@ -98,7 +90,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Событие обслуживания, который находится в стадии разработки. (1)</summary>
+        <summary>Выполняемое событие обслуживания. 1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="Scheduled">
@@ -122,7 +114,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Событие обслуживания, необходимо выполнить более поздней версии. (0)</summary>
+        <summary>Событие обслуживания запланировано позже. нуль</summary>
       </Docs>
     </Member>
   </Members>

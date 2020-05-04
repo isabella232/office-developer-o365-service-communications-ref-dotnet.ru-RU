@@ -1,13 +1,5 @@
 <Type Name="MessageCenterMessage" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e872d75f5d4eded646cfb0acebeded607937c51" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621566" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class MessageCenterMessage : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e872d75f5d4eded646cfb0acebeded607937c51" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621566" /></Metadata><TypeSignature Language="C#" Value="public class MessageCenterMessage : Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MessageCenterMessage extends Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.MessageCenterMessage" />
   <TypeSignature Language="VB.NET" Value="Public Class MessageCenterMessage&#xA;Inherits Event" />
@@ -26,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Представляет сообщение центр сообщений.</summary>
+    <summary>Представляет сообщение центра сообщений.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -67,11 +59,9 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Поле даты, с какого клиента необходимо выполнить действия.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Допускает значение NULL</a>
-          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">Даты и времени</a>
-        </value>
+        <summary>Предоставляет дату выполнения действий клиента.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Значение</a>
+          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">даты и времени (DateTime</a> )</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -96,13 +86,9 @@
       </ReturnValue>
       <Docs>
         <summary>Предоставляет тип сообщения.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
-        <remarks>
-          <para>Возможные значения: «1» для «Действия», «2» для «Opportunity» и «3» для «Сведения о».</para>
-          <para />
-        </remarks>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
+        <remarks><para>Возможные значения: "1" для "Action", "2" для "Возможная" и "3" для "сведения о состоянии".</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -125,14 +111,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет категории сообщения.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
-        <remarks>
-          <para>Возможные значения: «1», «Запретить или устранения проблем», «2», «Планирование для изменения» и «3» для «Оставайтесь в курсе».</para>
-          <para />
-        </remarks>
+        <summary>Предоставляет категорию сообщений.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
+        <remarks><para>Возможные значения: "1" для "предотвращение или устранение проблем", "2" для "Планирование изменений" и "3" для "сведения о".</para>
+          <para /></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExternalLink">
@@ -155,10 +137,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит ссылки на дополнительные сведения о сообщении.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
+        <summary>Содержит ссылку на дополнительные сведения о сообщении.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -182,14 +162,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Обеспечивает уровень срочным обмен сообщениями.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
-        <remarks>
-          <para>Возможные значения: «21» для «Критический», «22» для «Высокий» и «23» для «Обычный».</para>
-          <para />
-        </remarks>
+        <summary>Обеспечивает уровень срочности обмена сообщениями.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
+        <remarks><para>Возможные значения: "21" для "критическое", "22" для "High", "23" для "нормального".</para>
+          <para /></remarks>
       </Docs>
     </Member>
   </Members>

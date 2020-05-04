@@ -1,13 +1,5 @@
 <Type Name="Event" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2e01528ce80823083d819cfa3ab168437ebe7e72" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621560" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e01528ce80823083d819cfa3ab168437ebe7e72" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621560" /></Metadata><TypeSignature Language="C#" Value="public class Event" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Event extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Event" />
   <TypeSignature Language="VB.NET" Value="Public Class Event" />
@@ -79,11 +71,9 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит время окончания события.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Допускает значение NULL</a>
-          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">Даты и времени</a>
-        </value>
+        <summary>Предоставляет время окончания события.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/b3h38hb0">Значение</a>
+          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">даты и времени (DateTime</a> )</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -108,9 +98,7 @@
       </ReturnValue>
       <Docs>
         <summary>Предоставляет идентификатор события.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -134,10 +122,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит время последнего обновления события.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
-        </value>
+        <summary>Предоставляет время последнего обновления события.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -162,8 +148,7 @@
       </ReturnValue>
       <Docs>
         <summary>Предоставляет сообщения о событиях.</summary>
-        <value>
-          <see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message" />[]</value>
+        <value><see cref="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message" />[]</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -187,10 +172,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит время начала события.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
-        </value>
+        <summary>Предоставляет время начала события.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -215,9 +198,7 @@
       </ReturnValue>
       <Docs>
         <summary>Предоставляет состояние события.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -241,10 +222,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Предоставляет название события.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
+        <summary>Содержит название события.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

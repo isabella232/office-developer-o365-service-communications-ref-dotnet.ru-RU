@@ -1,13 +1,5 @@
 <Type Name="ServiceStatus" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3958d22b84bdff307c2f80887f3e397bb2974cde" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621554" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum ServiceStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3958d22b84bdff307c2f80887f3e397bb2974cde" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621554" /></Metadata><TypeSignature Language="C#" Value="public enum ServiceStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.ServiceStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum ServiceStatus" />
@@ -50,7 +42,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>Решение об инциденте находится в стадии разработки и займет время для завершения. (3)</summary>
+        <summary>Разрешение инцидентов выполняется и займет некоторое время. 4</summary>
       </Docs>
     </Member>
     <Member MemberName="FalsePositive">
@@ -74,7 +66,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>Службы расследования определить, что служба происшествия не было. (6)</summary>
+        <summary>При расследовании обслуживания обнаружено, что инцидент службы не выполнялся. ICMPv6</summary>
       </Docs>
     </Member>
     <Member MemberName="InformationUnavailable">
@@ -98,7 +90,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>API-Интерфейс не удалось обработать запрос для получения сведений. (8)</summary>
+        <summary>API не может обработать запрос для получения сведений. 8,5</summary>
       </Docs>
     </Member>
     <Member MemberName="Investigating">
@@ -122,7 +114,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>Об инциденте расследования служба находится в стадии разработки. (4)</summary>
+        <summary>Выполняется исследование инцидентов службы. SP4</summary>
       </Docs>
     </Member>
     <Member MemberName="PIRPublished">
@@ -146,7 +138,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>Разбор отчет был опубликован. (7)</summary>
+        <summary>Отчет после инцидента опубликован. см</summary>
       </Docs>
     </Member>
     <Member MemberName="RestoringService">
@@ -170,7 +162,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>Решение об инциденте находится в стадии разработки. (2)</summary>
+        <summary>Выполняется разрешение инцидентов. 2</summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceDegradation">
@@ -194,7 +186,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>Операции службы временно снижается для некоторых клиентов. (1)</summary>
+        <summary>Операция службы временно снижена для некоторых пользователей. 1,1</summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceInterruption">
@@ -218,7 +210,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>Служба временно недоступна для некоторых клиентов. (0)</summary>
+        <summary>Служба временно недоступна для некоторых клиентов. нуль</summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceOperational">
@@ -242,7 +234,7 @@
       </ReturnValue>
       <MemberValue>99</MemberValue>
       <Docs>
-        <summary>Служба работает нормально. (99)</summary>
+        <summary>Служба работоспособна. (99)</summary>
       </Docs>
     </Member>
     <Member MemberName="ServiceRestored">
@@ -266,7 +258,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>Разрешается происшествия служба и служба работает для всех клиентов. (5)</summary>
+        <summary>Инцидент службы разрешается, и служба работает для всех клиентов. 17:00</summary>
       </Docs>
     </Member>
   </Members>

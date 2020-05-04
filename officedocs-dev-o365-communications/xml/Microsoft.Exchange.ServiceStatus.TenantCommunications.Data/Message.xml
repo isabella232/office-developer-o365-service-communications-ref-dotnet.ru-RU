@@ -1,13 +1,5 @@
 <Type Name="Message" FullName="Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="df15741f48a3f442085c8a6894872bc0f6d04829" />
-    <Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="ru-RU" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20621545" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class Message" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df15741f48a3f442085c8a6894872bc0f6d04829" /><Meta Name="ms.sourcegitcommit" Value="975f1ef0349018da36c4f2d93ff3b50c606b2b1e" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="ru-RU" /><Meta Name="ms.lasthandoff" Value="07/19/2018" /><Meta Name="ms.locfileid" Value="20621545" /></Metadata><TypeSignature Language="C#" Value="public class Message" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Message extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.ServiceStatus.TenantCommunications.Data.Message" />
   <TypeSignature Language="VB.NET" Value="Public Class Message" />
@@ -67,10 +59,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит текст для сообщения.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a>
-        </value>
+        <summary>Предоставляет текст сообщения.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/s1wwdcbf">Строка</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -94,10 +84,8 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Содержит время публикации.</summary>
-        <value>
-          <a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a>
-        </value>
+        <summary>Предоставляет время публикации.</summary>
+        <value><a href="http://msdn.microsoft.com/en-us/library/03ybds8y">DateTime</a></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
